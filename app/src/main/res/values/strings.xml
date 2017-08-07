@@ -27,4 +27,6 @@
     <string name="playing_screen">Playing screen</string>
     <string name="playing_description">in this activity, we are going to use the ContentResolver class to retrieve tracks on the device, the MediaPlayer class to play audio and the MediaController class to control playback.</string>
     <string name="sign_in_description">In this activity, we integrating google sign in into this app. \nstep1: Get a configuration file  \nstep2:Add the configuration file to your projectstep \n3:Add the Google Services plugin and Add Google Play services  \nstep4: Get your backend server\'s OAuth 2.0 client ID  \nstep5:Configure Google Sign-In and the GoogleApiClient object  \nstep6:Add the Google Sign-In button to your app  \nstep7:Start the sign-in flow</string>
+    <string name="payment_screen">Payment Screen</string>
+    <string name="pay_description">In this payment activity, we will install Stripe Android library (compile \'com.stripe:stripe-android:4.1.5\') and use stripe api to implement payment activity</string>
 </resources>

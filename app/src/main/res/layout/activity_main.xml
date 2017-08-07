@@ -25,11 +25,9 @@
         <TextView
             android:id="@+id/favorite_view"
             style="@style/body1"
-            android:text="@string/category_songs"
-            />
+            android:text="@string/category_songs" />
 
         <TextView style="@style/line" />
-
 
     </LinearLayout>
 </ScrollView>

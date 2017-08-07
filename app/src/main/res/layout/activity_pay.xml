@@ -6,11 +6,11 @@
 
     <TextView
         style="@style/body1"
-        android:text="Payment Screen"/>
+        android:text="@string/payment_screen" />
 
     <TextView
         style="@style/description"
-        android:text="In this payment activity, we will install Stripe Android library (compile 'com.stripe:stripe-android:4.1.5') and use stripe api to implement payment activity"/>
+        android:text="@string/pay_description" />
 
 
 </LinearLayout>
