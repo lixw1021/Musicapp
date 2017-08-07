@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/login_view"
+            style="@style/Title"
+            android:text="@string/category_library" />
+
+        <TextView style="@style/line" />
+
+        <TextView
+            android:id="@+id/playlist_view"
+            style="@style/body1"
+            android:text="@string/category_playlists" />
+
+        <TextView style="@style/line" />
+
+        <TextView
+            android:id="@+id/albums_view"
+            style="@style/body1"
+            android:text="@string/category_albums" />
+
+        <TextView style="@style/line" />
+
+        <TextView
+            android:id="@+id/favorite_view"
+            style="@style/body1"
+            android:text="@string/category_songs"
+            />
+
+        <TextView style="@style/line" />
+
+
+    </LinearLayout>
+</ScrollView>
