@@ -5,9 +5,32 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="match_parent"
+        style="@style/body1"
+        android:text="@string/favorite_songs_screen"/>
+
+    <TextView
+        style="@style/description"
+        android:text="@string/favorite_description" />
+
+    <TextView
+        android:id="@+id/favorite_buy_ic"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="this is description of this page" />
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:text="@string/buy" />
+
+    <ImageView
+        android:id="@+id/favorite_playing_ic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_play_arrow_black_24dp" />
+
 
     <ListView
         android:id="@+id/list_view"

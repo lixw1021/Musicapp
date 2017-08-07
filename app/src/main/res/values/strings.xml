@@ -19,4 +19,12 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="favorite_description">In this Activity, A ListView will be used to display all favorite songs. Each item includes one imageView on the left,one playing icon which will navigate to playing screen when clicked, and one buy icon on the right side. When buy icon clicked will navigate to payment activity.</string>
+    <string name="buy">BUY</string>
+    <string name="playlists_description">There are a search bar at the top of this screen, which can be used to search songs in the server and can be added to this page, and a listView with different category, like Classical Music, Pop Music, Top 100, Purchased and so on. Each category can be clicked and open another page with song items. \nEach song item has a song image, a buy icon and playing icon </string>
+    <string name="favorite_songs_screen">Favorite songs screen</string>
+    <string name="playlists_screen">Playlists screen</string>
+    <string name="playing_screen">Playing screen</string>
+    <string name="playing_description">in this activity, we are going to use the ContentResolver class to retrieve tracks on the device, the MediaPlayer class to play audio and the MediaController class to control playback.</string>
+    <string name="sign_in_description">In this activity, we integrating google sign in into this app. \nstep1: Get a configuration file  \nstep2:Add the configuration file to your projectstep \n3:Add the Google Services plugin and Add Google Play services  \nstep4: Get your backend server\'s OAuth 2.0 client ID  \nstep5:Configure Google Sign-In and the GoogleApiClient object  \nstep6:Add the Google Sign-In button to your app  \nstep7:Start the sign-in flow</string>
 </resources>

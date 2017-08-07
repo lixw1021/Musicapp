@@ -71,6 +71,15 @@
                 android:text="@string/action_sign_in"
                 android:textStyle="bold" />
 
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/sign_in_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/description"
+                android:text="@string/sign_in_description" />
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

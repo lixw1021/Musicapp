@@ -23,13 +23,6 @@
         <TextView style="@style/line" />
 
         <TextView
-            android:id="@+id/albums_view"
-            style="@style/body1"
-            android:text="@string/category_albums" />
-
-        <TextView style="@style/line" />
-
-        <TextView
             android:id="@+id/favorite_view"
             style="@style/body1"
             android:text="@string/category_songs"

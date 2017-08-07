@@ -25,17 +25,16 @@
             android:name=".PlaylistsActivity"
             android:label="Playlists" />
         <activity
-            android:name=".AlbumsActivity"
-            android:label="Albums" />
-        <activity
             android:name=".FavoriteActivity"
             android:label="Favorite" />
         <activity
             android:name=".PayActivity"
-            android:label="Pay"></activity>
+            android:label="Pay" />
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:label="@string/title_activity_login" />
+        <activity android:name=".PlayingActivity"
+            android:label="Playing"></activity>
     </application>
 
 </manifest>

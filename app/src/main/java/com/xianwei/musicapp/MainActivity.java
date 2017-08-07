@@ -1,9 +1,8 @@
 package com.xianwei.musicapp;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.MenuItem;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -16,8 +15,6 @@ public class MainActivity extends AppCompatActivity {
     TextView login;
     @BindView(R.id.playlist_view)
     TextView playlist;
-    @BindView(R.id.albums_view)
-    TextView albums;
     @BindView(R.id.favorite_view)
     TextView favorite;
 
@@ -37,12 +34,6 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.playlist_view)
     public void openPlaylist(View view) {
         Intent intent = new Intent(this, PlaylistsActivity.class);
-        startActivity(intent);
-    }
-
-    @OnClick(R.id.albums_view)
-    public void openAlbums(View view) {
-        Intent intent = new Intent(this, AlbumsActivity.class);
         startActivity(intent);
     }
 
