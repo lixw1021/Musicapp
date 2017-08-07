@@ -28,6 +28,10 @@
             android:text="@string/category_songs" />
 
         <TextView style="@style/line" />
+        
+        <TextView
+            style="@style/description"
+            android:text="@string/mian_description" />
 
     </LinearLayout>
 </ScrollView>

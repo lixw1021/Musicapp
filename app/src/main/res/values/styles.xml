@@ -9,36 +9,36 @@
     </style>
 
     <style name="Title" parent="TextAppearance.AppCompat.Title">
-        <item name="android:layout_marginStart">15dp</item>
-        <item name="android:layout_marginTop">10dp</item>
-        <item name="android:layout_marginBottom">10dp</item>
-        <item name="android:textSize">25sp</item>
+        <item name="android:layout_marginStart">@dimen/title_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/title_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/title_marginBottom</item>
+        <item name="android:textSize">@dimen/title_textSzie</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
 
     <style name="body1" parent="TextAppearance.AppCompat.Body1">
         <item name="android:textColor">@color/colorAccent</item>
-        <item name="android:layout_marginStart">15dp</item>
-        <item name="android:layout_marginTop">10dp</item>
-        <item name="android:layout_marginBottom">10dp</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginStart">@dimen/body1_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/body1_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/body1_marginBottom</item>
+        <item name="android:textSize">@dimen/body1_textSize</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
 
     <style name="line">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_height">@dimen/line_height</item>
         <item name="android:background">@color/gray</item>
     </style>
 
     <style name="description">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginStart">10dp</item>
-        <item name="android:layout_marginEnd">10dp</item>
-        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginStart">@dimen/description_marginStart</item>
+        <item name="android:layout_marginEnd">@dimen/description_marginEnd</item>
+        <item name="android:layout_marginTop">@dimen/description_marginTop</item>
         <item name="android:textSize">14sp</item>
     </style>
 </resources>

@@ -15,7 +15,7 @@ public class FavoriteActivity extends AppCompatActivity {
     @BindView(R.id.favorite_buy_ic)
     TextView buyIcon;
     @BindView(R.id.favorite_playing_ic)
-    ImageView PlayingIcon;
+    ImageView playingIcon;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
